@@ -1,0 +1,112 @@
+// 主色调:主色
+$primary-color: #03536e;
+// 主色调:第一辅色
+$auxiliary-color-first: #086989;
+// 主色调:第二辅色
+$auxiliary-color-second: #09799e;
+
+// 字体色:1号字体色
+$font-color-first: #222;
+// 字体色:2号字体色
+$font-color-second: #444;
+// 字体色:3号字体色
+$font-color-third: #666;
+// 字体色:4号字体色
+$font-color-fourth: #999;
+// 字体色:5号字体色
+$font-color-fifth: #a1a1a1;
+
+// 按钮：渐变_1
+$button-gradient-first: linear-gradient(to right, #04958d, #049068);
+// 按钮：渐变_1点击
+$button-gradient-first-click: linear-gradient(to right, #008a82, #007f5b);
+// 按钮：按钮_1
+$button-color-first: #3881a8;
+// 按钮：按钮_1点击
+$button-color-first-click: #276e94;
+// 按钮：按钮_2
+$button-color-second: #8cb2c9;
+// 按钮：按钮_2点击
+$button-color-second-click: #719db7;
+// 按钮：按钮_3
+$button-color-third: #ff9900;
+// 按钮：按钮_3点击
+$button-color-third-click: #ec9212;
+// 按钮：按钮_4
+$button-color-fourth: #c9c9c9;
+
+// 背景色：背景色1
+$background-color-first: #f6f6f6;
+// 背景色：背景色2
+$background-color-second: #eee;
+// 背景色：背景色3
+$background-color-third: #fff;
+// 背景色：背景色4
+$background-color-fourth: #f4fcff;
+// 背景色：遮罩
+$background-color-mask: rgba(#000, 0.5);
+
+// 分割线: 通用
+$divider-border-color: #e7e7e7;
+// 分割线: B盘分割线
+$divider-border-color-bdisk: #e8e8e8;
+// 分割线：导航分割线
+$divider-border-color-navigation: #87cec1;
+
+// 用户中心：渐变(头部面板)
+$usercenter-gradient: linear-gradient(to bottom, #04958d, #049068);
+
+// 输入框 边框_1
+$input-bg-one: #f5f5f5;
+$input-border-frist: #e6e6e6;
+$input-background-fourth: #ffe9e9;
+$input-border-color-third: #c66;
+
+$lottery-red: #c33;
+
+$red: #df2939;
+$color-win: $red;
+$green: #34b822;
+$blue: #09c;
+$darkgreen: #088972;
+
+$totalbg: #fff2df;
+$total-color1: #663;
+$total-color2: #b8a68b;
+// 封单色
+$seal-color: #fdc45d;
+// 深底文字色
+$dark-text-color: #ffff99;
+// 追号色
+$chase-number-color: #0099cc;
+
+// 彩种:彩球_1
+$lottery-ball-color-first: #d3556a;
+// 彩种:彩球_2
+$lottery-ball-color-second: #3881a8;
+// 彩种：彩球_红
+$lottery-ball-color-red: $lottery-ball-color-first;
+// 彩种：彩球_绿
+$lottery-ball-color-green: #0ac868;
+// 彩种：彩球_蓝
+$lottery-ball-color-blue: #0a87cb;
+// 彩种：彩球_PK10_1
+$lottery-ball-color-PK10-1: #fda200;
+// 彩种：彩球_PK10_2
+$lottery-ball-color-PK10-2: #0187fe;
+// 彩种：彩球_PK10_3
+$lottery-ball-color-PK10-3: #4b4b4d;
+// 彩种：彩球_PK10_4
+$lottery-ball-color-PK10-4: #ff7203;
+// 彩种：彩球_PK10_5
+$lottery-ball-color-PK10-5: #00a5a1;
+// 彩种：彩球_PK10_6
+$lottery-ball-color-PK10-6: #5135fa;
+// 彩种：彩球_PK10_7
+$lottery-ball-color-PK10-7: #8d8791;
+// 彩种：彩球_PK10_8
+$lottery-ball-color-PK10-8: #fd0100;
+// 彩种：彩球_PK10_9
+$lottery-ball-color-PK10-9: #730101;
+// 彩种：彩球_PK10_10
+$lottery-ball-color-PK10-10: #06bb02;

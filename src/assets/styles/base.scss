@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="tel"] textarea {
+  outline: none;
+  -webkit-appearance: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  user-select: none;
+  outline: none !important;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+/** 清除各浏览器默认，因margin,padding不同问题 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/** 清除样式 */
+ul,
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/**去除所有滚动条*/
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  display: none;
+}
+
+// 输入框 可以选中
+input[type="text"],
+input[type="textarea"],
+input[type="number"],
+input[type="tel"] {
+  user-select: true;
+}
+
+// 去除是否可以选中
+div,
+li,
+a,
+span {
+  user-select: none;
+}

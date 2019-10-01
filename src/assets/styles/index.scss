@@ -1,0 +1,71 @@
+/** animate.css 动画 */
+@import url("~animate.css/animate.css");
+@import url("./cube.scss");
+@import url("./base.scss");
+
+.animated {
+  animation-direction: 0.3s;
+}
+
+/** 大量的背景图片 w: 40px, h: 40px; */
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.xbutton {
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 1;
+  color: #fff;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background: linear-gradient(to right, #04958d, #049068);
+  height: 60px;
+  border-radius: 30px;
+  font-size: 26px;
+  margin: 0 auto;
+  box-shadow: 0px 10px 60px #acd8d5;
+}
+
+.htmls {
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: auto;
+  text-align: left;
+  word-break: break-all;
+  display: block !important;
+}
+
+.htmls * {
+  word-break: break-all;
+}
+
+.htmls img {
+  max-width: 100%;
+}
+
+/** iphone 5 
+@media only screen and (min-width: 320px) and (max-width:360px){
+ 
+}
+@media only screen and (min-width: 360px) and (max-width:375px){
+ 
+}
+@media only screen and (min-width: 375px) and (max-width:390px) {
+
+}
+iphoneX
+@media screen and (min-width: 375px) and (-webkit-device-pixel-ratio: 3) {
+ 
+}
+@media only screen and (min-width: 390px) and (max-width:414px) {
+ 
+}
+@media screen and (min-width: 414px) and (max-width:640px){
+  
+}*/

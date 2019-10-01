@@ -1,0 +1,70 @@
+x-button {
+  border: 0;
+  line-height: 50px;
+  border-radius: 25px;
+  padding: 0 20px;
+  color: #fff;
+  outline: none;
+}
+
+/** 按钮：按钮_1 */
+@mixin x-button-first {
+  @extend x-button;
+  background-color: $button-color-first;
+
+  &.click {
+    background-color: $button-color-first-click;
+  }
+
+  &:disabled {
+    background-color: $button-color-fourth;
+  }
+}
+
+/** 按钮：按钮_2 */
+@mixin x-button-second {
+  @extend x-button;
+  background-color: $button-second-first;
+
+  &.click {
+    background-color: $button-color-second-click;
+  }
+
+  &:disabled {
+    background-color: $button-color-fourth;
+  }
+}
+
+/** 按钮：按钮_3 */
+@mixin x-button-third {
+  @extend x-button;
+  background-color: $button-third-first;
+
+  &.click {
+    background-color: $button-color-third-click;
+  }
+
+  &:disabled {
+    background-color: $button-color-fourth;
+  }
+}
+
+@mixin bg-img($url) {
+  background: url($url) no-repeat center/contain;
+}
+
+@mixin linear-grad($start, $end) {
+  background: linear-gradient($start, $end);
+}
+
+@mixin app-btn($w, $h, $fs, $c, $br, $bgc) {
+  width: $w;
+  height: $h;
+  font-size: $fs;
+  line-height: $h;
+  color: $c;
+  border-radius: $br;
+  background: $bgc;
+  border: 0;
+  outline: 0;
+}
